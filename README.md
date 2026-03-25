@@ -1,51 +1,36 @@
-B1 Motors
-Website automotivo desenvolvido para a B1 Motors, com foco em apresentação premium do estoque e captação de leads de clientes interessados.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-✨ Funcionalidades
-- Listagem de veículos
-- Página dedicada para cada carro
-- Galeria de imagens
-- Página de contato
-- Botão **Tenho interesse** integrado à ficha de captação
-- Envio automático de leads para Google Sheets
-- Organização inicial dos leads em planilha com status
+## Getting Started
 
-🚀 Tecnologias utilizadas
-- **Next.js**
-- **React**
-- **TypeScript**
-- **Tailwind CSS**
-- **Google Apps Script**
-- **Google Sheets**
+First, run the development server:
 
-📌 Sobre o sistema de leads
-O projeto conta com uma integração simples e funcional para captação de interessados:
-1. O cliente acessa a página de um veículo
-2. Clica em **Tenho interesse**
-3. Preenche a ficha com seus dados
-4. As informações são enviadas automaticamente para uma planilha no Google Sheets
-
-Isso permite que a loja tenha uma base organizada de leads sem depender apenas do WhatsApp.
-
-📂 Estrutura principal
 ```bash
-app/
-├── api/
-│   └── ficha/
-│       └── route.ts
-├── carros/
-│   ├── [slug]/
-│   │   └── page.tsx
-│   └── page.tsx
-├── contato/
-│   └── page.tsx
-├── ficha/
-│   └── page.tsx
-└── page.tsx
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-components/
-└── cars/
-    └── CarGallery.tsx
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-data/
-└── cars.ts
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
