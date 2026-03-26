@@ -81,7 +81,7 @@ export default function Footer() {
           <p>
             Desenvolvido por{" "}
             <a
-              href="https://www.instagram.com/avusdigital_/"
+              href="https://avus-digital.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/70 transition hover:text-white"
