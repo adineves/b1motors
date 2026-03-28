@@ -1,9 +1,14 @@
 const mediaImages = [
-  "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1400&q=80",
-  "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1400&q=80",
-  "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80",
-  "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=1400&q=80",
-  "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1400&q=80",
+  "https://i.postimg.cc/y6fVJfBq/320i_1.jpg",
+  "https://i.postimg.cc/c1Vxppz6/bmw_x1_1.jpg",
+  "https://i.postimg.cc/KYqFJwLx/celta1.jpg",
+  "https://i.postimg.cc/kG8mM5H4/montana_premier1.jpg",
+  "https://i.postimg.cc/qMMHg8Wb/hyundai_creta_1.jpg",
+  "https://i.postimg.cc/RhN0DBhh/hb20_1.jpg",
+  "https://i.postimg.cc/d1QP5j31/hb20s_1.jpg",
+  "https://i.postimg.cc/B6Fkx1Z5/jeep_compass_(5).jpg",
+  "https://i.postimg.cc/tgBPg1th/mustang_gt1.jpg",
+  "https://i.postimg.cc/VkHVpFd0/toyota_corolla_(9).jpg"
 ];
 
 export default function MidiaPage() {

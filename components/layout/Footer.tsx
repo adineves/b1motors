@@ -81,12 +81,12 @@ export default function Footer() {
           <p>
             Desenvolvido por{" "}
             <a
-              href="https://adler-neves.vercel.app/"
+              href="https://avus-digital.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/70 transition hover:text-white"
             >
-              Adler Neves
+              Avus Digital
             </a>
           </p>
         </div>
